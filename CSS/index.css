@@ -1,26 +1,7 @@
-/* Global reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    background-color: #383c42;
+    background-color: #36383e;
 }
 
 header {
-    background-color: #22272b;
-    padding-bottom: 50px;
-    align-items: center;
-    display: flexbox;
-}
-
-.header_text {
-    color: white;
-    font-size: 1cm;
-    font-family: Arial;
-    display: flexbox;
-    justify-content: flex-start;
     
-} 
+}
