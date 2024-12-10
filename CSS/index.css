@@ -11,15 +11,17 @@ header {
     color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #242529;
-    display: grid;
+    display: flex;
+    justify-content: space-between;
 }
 
 .lijn {
     color: #17181a;
 }
 
-lijnheader {
+.lijnheader {
     background-color: #242529;
+    
     height: 1px;
 }
 
@@ -103,4 +105,18 @@ article {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.darkmode {
+    background-color: #36383e;
+}
+
+.lightmode {
+    background-color: white;
+}
+
+.icons {
+    font-size: 35px;
+    margin-right: 25px;
+
 }
