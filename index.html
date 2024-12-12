@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="theme-dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/CSS/index.css">
-    
+    <script src="/js/themebutton.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
@@ -20,6 +20,10 @@
             <a href= "https://nl.linkedin.com/in/bert-en-ernie-41859248">
                 <ion-icon name="logo-linkedin" class="icons"></ion-icon>
             </a>
+            <input type="checkbox" id="themeSwitch">
+            <label for="themeSwitch">
+                <ion-icon name="sunny-outline"></ion-icon>
+            </label>
         </section>
         
     </header> 
@@ -42,12 +46,4 @@
     </article>
     
 </body>
-<script>
-    let darkMode = localStorage.getItem('darkmode')
-    let themeSwitch = document.getElementById('themeSwitch')
-
-    themeSwitch.addEventListener("click", () => {
-    darkMode !== "active" ? enabledarkMode() : disabledarkMode() 
-    })
-</script>
 </html>
