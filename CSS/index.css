@@ -1,6 +1,25 @@
+html,
+
+
+.theme-light {
+    --color-primary: white;
+    --color-secondary: grey;
+    --color-derde: darkgrey;
+    --font-color: black;
+
+}
+
+.theme-dark {
+    --color-primary: #36383e;
+    --color-secondary: #2d2e33;
+    --color-derde: #22272b;
+    --font-color: white;
+    
+}
+
 body {
-    background-color: #36383e;
     margin: 0px;
+    background-color: var(--color-primary);
 }
 
 header {
@@ -8,9 +27,9 @@ header {
     margin-left: 0px;
     padding-bottom: 25px;
     padding-top: 25px;
-    color: whitesmoke;
+    color: var(--font-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #242529;
+    background-color: var(--color-derde);
     display: flex;
     justify-content: space-between;
 }
@@ -20,7 +39,7 @@ header {
 }
 
 .lijnheader {
-    background-color: #242529;
+    background-color: var(--color-secondary);
     
     height: 1px;
 }
@@ -35,7 +54,7 @@ header_text1 {
 }
 
 .navbar {
-    color: whitesmoke;
+    color: var(--font-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
     display: flex;
     align-items: center;
@@ -49,13 +68,13 @@ nav {
 
     display: flex;
     align-items: center;
-    background-color: #333;
+    background-color: var(--color-secondary);
     justify-content: center;
 
 }
 
 .artikel_1 {
-    background-color: #242529;
+    background-color: var(--color-secondary);
     display: grid;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -66,20 +85,20 @@ nav {
 }
 
 .artikel_1_text_head {
-    color: whitesmoke;
+    color: var(--font-color);
     font-size: 20px;
     font-weight: bolder;
 
 }
 
 .artikel_1_text {
-    color: whitesmoke;
+    color: var(--font-color);
     font-size: 17px;
 
 }
 
 .artikel_2 {
-    background-color: #242529;
+    background-color: var(--color-secondary);
     display: grid;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -89,14 +108,14 @@ nav {
 }
 
 .artikel_2_text_head {
-    color: whitesmoke;
+    color: var(--font-color);
     font-size: 20px;
     font-weight: bolder;
 
 }
 
 .artikel_2_text {
-    color: whitesmoke;
+    color: var(--font-color);
     font-size: 17px;
 
 }
@@ -107,16 +126,14 @@ article {
     align-items: center;
 }
 
-.darkmode {
-    background-color: #36383e;
-}
-
-.lightmode {
-    background-color: white;
-}
-
 .icons {
     font-size: 35px;
     margin-right: 25px;
 
+}
+
+label {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
 }
