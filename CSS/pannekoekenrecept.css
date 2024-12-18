@@ -1,0 +1,74 @@
+html,
+
+
+.theme-light {
+    --color-primary: white;
+    --color-secondary: grey;
+    --color-derde: darkgrey;
+    --font-color: black;
+
+}
+
+.theme-dark {
+    --color-primary: #36383e;
+    --color-secondary: #2d2e33;
+    --color-derde: #22272b;
+    --font-color: white;
+    
+}
+
+body {
+    margin: 0px;
+    background-color: var(--color-primary);
+}
+
+header {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: var(--font-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--color-derde);
+    display: flex;
+    justify-content: space-between;
+}
+
+.lijn {
+    color: #17181a;
+}
+
+.lijnheader {
+    background-color: var(--color-secondary);
+    
+    height: 1px;
+}
+
+
+
+.header_text1 {
+    font-size: 19px;
+    margin-left: 20px;
+    font-weight: 900;
+    padding-left: 15px;
+}
+
+.navbar {
+    color: var(--font-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    background-color: var(--color-secondary);
+    justify-content: center;
+
+}

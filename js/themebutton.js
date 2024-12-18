@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const themeSwitch = document.getElementById('themeSwitch');
-  const body = document.body;
+  let themeSwitch = document.getElementById('themeSwitch');
+  let body = document.body;
 
   // Initialize theme based on the current body class
   themeSwitch.checked = body.classList.contains('theme-dark');

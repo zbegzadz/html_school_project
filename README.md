@@ -1,2 +1,3 @@
-# html_school_project
+# Website opdracht voor school (HTML)
  HTML Project(en) voor school.
+
