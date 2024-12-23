@@ -72,3 +72,31 @@ nav {
     justify-content: center;
 
 }
+
+.icons {
+    font-size: 35px;
+    margin-right: 25px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+    gap: 15px;              /* Add space between elements */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    color: var(--font-color);
+    background-color: var(--color-primary);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .contact {
+    display: grid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 40px;
+    color: var(--font-color);
+  }
