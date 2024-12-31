@@ -1,6 +1,7 @@
 html,
 
 
+
 .theme-light {
     --color-primary: white;
     --color-secondary: grey;
@@ -32,7 +33,10 @@ header {
     background-color: var(--color-derde);
     display: flex;
     justify-content: space-between;
+    
 }
+
+
 
 .lijn {
     color: #17181a;
@@ -62,6 +66,8 @@ header {
     padding-right: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
+    animation: fadeIn 2s ease-in-out forwards;
+    opacity: 0; /* Start invisible */
 }
 
 nav {
@@ -70,8 +76,22 @@ nav {
     align-items: center;
     background-color: var(--color-secondary);
     justify-content: center;
+    animation: fadeIn 2s ease-in-out forwards;
+    opacity: 0; /* Start invisible */
 
 }
+
+@keyframes fadeIn {
+    0% {
+        transform: translateY(-50px); /* Start above the viewport */
+        opacity: 0; /* Fully invisible */
+    }
+    100% {
+        transform: translateY(0); /* Move to the original position */
+        opacity: 1; /* Fully visible */
+    }
+}
+
 
 .artikel_1 {
     background-color: var(--color-secondary);
