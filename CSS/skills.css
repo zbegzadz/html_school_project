@@ -152,3 +152,7 @@ ul li {
     padding: 10px;
     background-color: var(--color-derde);
 }
+
+#themeSwitch {
+    opacity: 0;
+}

@@ -138,3 +138,7 @@ article {
       opacity: 1;
     }
   }
+
+  #themeSwitch {
+    opacity: 0;
+}

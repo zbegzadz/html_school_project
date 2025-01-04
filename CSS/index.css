@@ -154,6 +154,7 @@ article {
     font-size: 35px;
     margin-right: 25px;
 
+
 }
 
 label {
@@ -164,4 +165,8 @@ label {
 
 .fotos {
     height: 100px;
+}
+
+#themeSwitch {
+    opacity: 0;
 }

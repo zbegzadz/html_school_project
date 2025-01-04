@@ -115,3 +115,7 @@ form {
     font-size: 40px;
     color: var(--font-color);
   }
+
+  #themeSwitch {
+    opacity: 0;
+}
